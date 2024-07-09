@@ -1,0 +1,5 @@
+data/
+writing/
+.DS_store
+.env
+*.pyc
