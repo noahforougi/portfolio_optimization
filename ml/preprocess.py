@@ -2,6 +2,11 @@ import pandas as pd
 
 
 def daily_to_monthly(df):
+    df["date"] = pd.to_datetime(df["date"])
+    df.set_index("date", inplace=True)
+    df = df.melt(ignore_index=False, var_name="ticker", value_name="return_1d")
+    df["month"] = df.index.to_period("M")
+    df["year"] = df.index.year
     return (
         df.reset_index()
         .sort_values(["date", "ticker"])
@@ -16,6 +21,8 @@ def daily_to_monthly(df):
         .drop(columns=["month"])
         .set_index("date")
         .sort_index()
+        .sort_values("date")
+        .assign(return_1m_forward=lambda x: x.groupby("ticker").return_1m.shift(-1))
     )
 
 
@@ -38,6 +45,7 @@ def add_simple_prediction(df):
 
 
 def add_dummy_variables(df, categorical_features):
+    df["portfolio"] = df["ticker"]
     df_with_dummies = pd.get_dummies(df, columns=categorical_features, drop_first=True)
     return df_with_dummies
 
@@ -49,3 +57,11 @@ def z_score(df, features):
             lambda x: (x - x.mean()) / x.std()
         )
     return z_scored_df
+
+
+def prepare_training_data(df: pd.DataFrame):
+    df = daily_to_monthly(df)
+    df = add_lags(df)
+    df = add_simple_prediction(df)
+    df = add_dummy_variables(df, ["ticker"])
+    return df.sort_index()
