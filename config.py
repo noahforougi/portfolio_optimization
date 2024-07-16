@@ -2,6 +2,7 @@ START_DATE = "1995-01-01"
 END_DATE = "2023-12-31"
 START_YEAR = 1995
 END_YEAR = 2023
+
 COLUMN_DICT = {
     # 10 Portfolios formed on Size
     "Portfolios_Formed_on_ME_daily.csv": (
@@ -110,4 +111,4 @@ COLUMN_DICT = {
     ),
 }
 
-BUCKET_NAME = "quant-finance-data"
+BUCKET_NAME = "portfolio-optimization-data"
