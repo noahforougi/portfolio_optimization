@@ -1,12 +1,14 @@
-from io import StringIO, BytesIO
+from io import BytesIO, StringIO
 
 import boto3
+import joblib
 import numpy as np
 import pandas as pd
 from rpy2.robjects import NULL
-import joblib
+from tqdm import tqdm
 
 import config
+import utils
 
 
 def calc_msfe(realized, forecast):
@@ -42,12 +44,25 @@ def write_s3_file(df, file_key, bucket_name=config.BUCKET_NAME):
     df.to_csv(csv_buffer, index=False)
     s3.put_object(Bucket=bucket_name, Key=file_key, Body=csv_buffer.getvalue())
 
+
 def write_s3_joblib(obj, file_key, bucket_name=config.BUCKET_NAME):
     s3 = boto3.client("s3")
     buffer = BytesIO()
     joblib.dump(obj, buffer)
     buffer.seek(0)
     s3.put_object(Bucket=bucket_name, Key=file_key, Body=buffer.getvalue())
+
+
+def read_s3_joblib(file_key, bucket_name=config.BUCKET_NAME):
+    s3 = boto3.client("s3")
+    buffer = BytesIO()
+    s3.download_fileobj(Bucket=bucket_name, Key=file_key, Fileobj=buffer)
+    buffer.seek(0)
+    from ml.train_expected_returns import ModelType
+
+    obj = joblib.load(buffer)
+    return obj
+
 
 def list_s3_files(bucket_name, prefix):
     s3 = boto3.client("s3")

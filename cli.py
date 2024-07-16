@@ -1,8 +1,7 @@
 import os
 
-import typer
-
 import download
+import typer
 
 app = typer.Typer()
 

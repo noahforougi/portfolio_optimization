@@ -4,9 +4,12 @@ import pandas as pd
 from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
 from sklearn.linear_model import Lasso, LinearRegression, Ridge
 from sklearn.svm import SVR
+from tqdm import tqdm
 from xgboost import XGBRegressor
 
 import config
+import utils
+from ml import preprocess
 
 
 def get_label():
@@ -141,3 +144,17 @@ def train_expected_returns(df):
             ),
         }
     return models_dict
+
+
+def main():
+    files = utils.list_s3_files(prefix="clean/", bucket_name=config.BUCKET_NAME)
+    for f in tqdm(files):
+        df = utils.read_s3_file(f)
+        df = preprocess.prepare_training_data(df)
+        model_dict = train_expected_returns(df)
+        clean_file = f.replace(".csv", "").replace("clean/", "")
+        utils.write_s3_joblib(model_dict, f"return_models/{clean_file}_er_models.pkl")
+
+
+if __name__ == "__main__":
+    main()

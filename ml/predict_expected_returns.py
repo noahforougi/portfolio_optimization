@@ -1,6 +1,9 @@
 import pandas as pd
+from tqdm import tqdm
 
-from ml import train_expected_returns
+import config
+import utils
+from ml import preprocess, train_expected_returns
 
 
 def expected_return_forecasts(df, model_dict, dates):
@@ -66,3 +69,18 @@ def expected_return_forecasts(df, model_dict, dates):
     all_predictions_df = all_predictions_df[cols].sort_values(["date", "portfolio"])
 
     return all_predictions_df
+
+
+if __name__ == "__main__":
+    files = utils.list_s3_files(prefix="clean/", bucket_name=config.BUCKET_NAME)
+    dates = pd.date_range(config.START_DATE, config.END_DATE, freq="ME")
+    for f in tqdm(files):
+        df = utils.read_s3_file(f)
+        model = f.replace(".csv", "_er_models.pkl").replace("clean/", "")
+        from ml.train_expected_returns import ModelType
+
+        model_dict = utils.read_s3_joblib(f"return_models/{model}")
+        df = preprocess.prepare_training_data(df)
+        results = expected_return_forecasts(df, model_dict=model_dict, dates=dates)
+        clean_f = f.replace("clean/", "").replace(".csv", "")
+        utils.write_s3_file(results, f"output/er_forecasts_{clean_f}.csv")

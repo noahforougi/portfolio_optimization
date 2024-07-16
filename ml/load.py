@@ -23,11 +23,7 @@ def process_files():
         df_clean = clean_data(df)
         df_clean = df_clean[["date"] + v[1]]
         clean_file_key = f"clean/{v[0]}.csv"
-        # utils.write_s3_file(df_clean, clean_file_key)
-        df_clean.to_csv(
-            f"/Users/noahforougi/research/portfolio_optimization/data/{clean_file_key}",
-            index=False,
-        )
+        utils.write_s3_file(df_clean, clean_file_key)
         print(f"Processed and saved {k} to {v[0]}.csv")
 
 
