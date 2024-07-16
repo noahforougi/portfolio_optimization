@@ -42,7 +42,7 @@ def get_lookback_period(df, year, lookback_years=10):
 
 def get_lookback_period_monthly(df, date, lookback_years=10):
     start = date + pd.DateOffset(years=-lookback_years)
-    return df[(df.index >= start) & (df.index.year <= date)]
+    return df[(df.index >= start) & (df.index <= date)]
 
 
 class ModelType(Enum):
