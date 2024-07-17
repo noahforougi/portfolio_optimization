@@ -44,6 +44,21 @@ def add_simple_prediction(df):
     return df
 
 
+def calculate_momentum(df, periods=[3, 6, 12]):
+    df = df.copy()
+    for period in periods:
+        df = df.reset_index()
+        momentum_feature = (
+            df.groupby("ticker")["return_1m"]
+            .rolling(window=period)
+            .apply(lambda x: (x + 1).prod() - 1)
+        )
+        df = df.set_index(["date", "ticker"])
+        df[f"momentum_{period}m"] = momentum_feature.values
+
+    return df
+
+
 def add_dummy_variables(df, categorical_features):
     df["portfolio"] = df["ticker"]
     df_with_dummies = pd.get_dummies(df, columns=categorical_features, drop_first=True)
@@ -63,5 +78,6 @@ def prepare_training_data(df: pd.DataFrame):
     df = daily_to_monthly(df)
     df = add_lags(df)
     df = add_simple_prediction(df)
+    df = calculate_momentum(df).reset_index().set_index("date")
     df = add_dummy_variables(df, ["ticker"])
     return df.sort_index()

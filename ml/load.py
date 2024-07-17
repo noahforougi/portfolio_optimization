@@ -25,7 +25,3 @@ def main():
         clean_file_key = f"clean/{v[0]}.csv"
         utils.write_s3_file(df_clean, clean_file_key)
         print(f"Processed and saved {k} to {v[0]}.csv")
-
-
-if __name__ == "__main__":
-    main()

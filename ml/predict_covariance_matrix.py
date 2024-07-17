@@ -208,7 +208,3 @@ def main():
         results = forecast_cov(df)
         clean_f = f.replace("clean/", "").replace(".csv", "")
         utils.write_s3_joblib(results, f"output/cov_forecasts_{clean_f}.pkl")
-
-
-if __name__ == "__main__":
-    main()

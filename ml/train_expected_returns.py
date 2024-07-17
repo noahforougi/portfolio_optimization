@@ -1,8 +1,13 @@
+import logging
 from enum import Enum
 
 import pandas as pd
 from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
+from sklearn.impute import SimpleImputer
 from sklearn.linear_model import Lasso, LinearRegression, Ridge
+from sklearn.model_selection import GridSearchCV
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import PolynomialFeatures
 from sklearn.svm import SVR
 from tqdm import tqdm
 from xgboost import XGBRegressor
@@ -10,6 +15,9 @@ from xgboost import XGBRegressor
 import config
 import utils
 from ml import preprocess
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 def get_label():
@@ -32,6 +40,9 @@ def get_features(df):
         "return_1m_lag10",
         "return_1m_lag11",
         "return_1m_lag12",
+        "momentum_3m",
+        "momentum_6m",
+        "momentum_12m",
     ]
     ticker_features = [col for col in df.columns if "ticker" in col]
     return base_features + ticker_features
@@ -74,47 +85,92 @@ def train_arima_model(y_train):
 
 
 def train_random_forest_model(X_train, y_train):
-    model = RandomForestRegressor(n_estimators=100, random_state=42)
-    model.fit(X_train, y_train)
-    return model
+    param_grid = {
+        "n_estimators": [100, 200, 300],
+        "max_depth": [None, 10, 20],
+        "min_samples_split": [2, 5, 10],
+    }
+    model = RandomForestRegressor(random_state=42)
+    grid_search = GridSearchCV(model, param_grid, cv=5, n_jobs=-1)
+    grid_search.fit(X_train, y_train)
+    best_model = grid_search.best_estimator_
+    return best_model
 
 
 def train_xgboost_model(X_train, y_train):
-    model = XGBRegressor(
-        objective="reg:squarederror", n_estimators=100, random_state=42
+    param_grid = {
+        "n_estimators": [100, 200],
+        "max_depth": [3, 6, 9],
+        "learning_rate": [0.01, 0.1, 0.3],
+    }
+    model = XGBRegressor(objective="reg:squarederror", random_state=42)
+    grid_search = GridSearchCV(model, param_grid, cv=5, n_jobs=-1)
+    grid_search.fit(X_train, y_train)
+    best_model = grid_search.best_estimator_
+    return best_model
+
+
+def train_linear_regression_model(X_train, y_train):
+    poly = PolynomialFeatures(degree=2)
+    model = Pipeline(
+        [
+            ("imputer", SimpleImputer(strategy="mean")),
+            ("poly", poly),
+            ("linear", LinearRegression()),
+        ]
     )
     model.fit(X_train, y_train)
     return model
 
 
-def train_linear_regression_model(X_train, y_train):
-    model = LinearRegression()
-    model.fit(X_train, y_train)
-    return model
-
-
 def train_ridge_regression_model(X_train, y_train):
-    model = Ridge()
-    model.fit(X_train, y_train)
-    return model
+    param_grid = {"ridge__alpha": [0.1, 1, 10, 100]}
+    model = Pipeline([("imputer", SimpleImputer(strategy="mean")), ("ridge", Ridge())])
+    grid_search = GridSearchCV(model, param_grid, cv=5)
+    grid_search.fit(X_train, y_train)
+    best_model = grid_search.best_estimator_
+    return best_model
 
 
 def train_lasso_regression_model(X_train, y_train):
-    model = Lasso()
-    model.fit(X_train, y_train)
-    return model
+    param_grid = {"lasso__alpha": [0.01, 0.1, 1, 10]}
+    model = Pipeline([("imputer", SimpleImputer(strategy="mean")), ("lasso", Lasso())])
+    grid_search = GridSearchCV(model, param_grid, cv=5)
+    grid_search.fit(X_train, y_train)
+    best_model = grid_search.best_estimator_
+    return best_model
 
 
 def train_svr_model(X_train, y_train):
-    model = SVR()
-    model.fit(X_train, y_train)
-    return model
+    param_grid = {
+        "svr__C": [0.1, 1, 10],
+        "svr__gamma": [0.001, 0.01, 0.1],
+        "svr__kernel": ["linear", "rbf"],
+    }
+    model = Pipeline([("imputer", SimpleImputer(strategy="mean")), ("svr", SVR())])
+
+    grid_search = GridSearchCV(model, param_grid, cv=5)
+    grid_search.fit(X_train, y_train)
+    best_model = grid_search.best_estimator_
+    return best_model
 
 
 def train_gradient_boosting_model(X_train, y_train):
-    model = GradientBoostingRegressor()
-    model.fit(X_train, y_train)
-    return model
+    param_grid = {
+        "gbr__n_estimators": [100, 200],
+        "gbr__learning_rate": [0.01, 0.1, 0.2],
+        "gbr__max_depth": [3, 5, 7],
+    }
+    model = Pipeline(
+        [
+            ("imputer", SimpleImputer(strategy="mean")),
+            ("gbr", GradientBoostingRegressor(random_state=42)),
+        ]
+    )
+    grid_search = GridSearchCV(model, param_grid, cv=5, n_jobs=-1)
+    grid_search.fit(X_train, y_train)
+    best_model = grid_search.best_estimator_
+    return best_model
 
 
 def train_expected_returns(df):
@@ -122,26 +178,42 @@ def train_expected_returns(df):
     features = get_features(df)
     models_dict = {}
 
-    for year in range(config.START_YEAR, config.END_YEAR):
+    for year in tqdm(range(config.START_YEAR, config.END_YEAR)):
         train_data = get_lookback_period(df, year)
         X_train = train_data[features]
         y_train = train_data[label]
 
+        logger.info("Training Model --- Rolling Average")
+        rolling_avg_model = train_rolling_average_model(y_train)
+        logger.info("Training Model --- EWMA")
+        ewma_model = train_ewma_model(y_train)
+        logger.info("Training Model --- ARIMA")
+        arima_model = train_arima_model(y_train)
+        logger.info("Training Model --- Random Forest")
+        rf_model = train_random_forest_model(X_train, y_train)
+        logger.info("Training Model --- XGBoost")
+        xgboost_model = train_xgboost_model(X_train, y_train)
+        logger.info("Training Model --- Linear Regression")
+        lin_reg_model = train_linear_regression_model(X_train, y_train)
+        logger.info("Training Model --- Ridge Regression")
+        ridge_regression_model = train_ridge_regression_model(X_train, y_train)
+        logger.info("Training Model --- Lasso Regression")
+        lasso_regression_model = train_lasso_regression_model(X_train, y_train)
+        logger.info("Training Model --- SVR Model")
+        svr_model = train_svr_model(X_train, y_train)
+        logger.info("Training Model --- Gradient Boosting Model")
+        gradient_boosting_model = train_gradient_boosting_model(X_train, y_train)
         models_dict[year] = {
-            ModelType.ROLLING_AVERAGE: train_rolling_average_model(y_train),
-            ModelType.EWMA: train_ewma_model(y_train),
-            ModelType.ARIMA: train_arima_model(y_train),
-            ModelType.RANDOM_FOREST: train_random_forest_model(X_train, y_train),
-            ModelType.XGBOOST: train_xgboost_model(X_train, y_train),
-            ModelType.LINEAR_REGRESSION: train_linear_regression_model(
-                X_train, y_train
-            ),
-            ModelType.RIDGE_REGRESSION: train_ridge_regression_model(X_train, y_train),
-            ModelType.LASSO_REGRESSION: train_lasso_regression_model(X_train, y_train),
-            ModelType.SVR: train_svr_model(X_train, y_train),
-            ModelType.GRADIENT_BOOSTING: train_gradient_boosting_model(
-                X_train, y_train
-            ),
+            ModelType.ROLLING_AVERAGE: rolling_avg_model,
+            ModelType.EWMA: ewma_model,
+            ModelType.ARIMA: arima_model,
+            ModelType.RANDOM_FOREST: rf_model,
+            ModelType.XGBOOST: xgboost_model,
+            ModelType.LINEAR_REGRESSION: lin_reg_model,
+            ModelType.RIDGE_REGRESSION: ridge_regression_model,
+            ModelType.LASSO_REGRESSION: lasso_regression_model,
+            ModelType.SVR: svr_model,
+            ModelType.GRADIENT_BOOSTING: gradient_boosting_model,
         }
     return models_dict
 
@@ -154,7 +226,3 @@ def main():
         model_dict = train_expected_returns(df)
         clean_file = f.replace(".csv", "").replace("clean/", "")
         utils.write_s3_joblib(model_dict, f"return_models/{clean_file}_er_models.pkl")
-
-
-if __name__ == "__main__":
-    main()

@@ -84,7 +84,3 @@ def main():
         results = expected_return_forecasts(df, model_dict=model_dict, dates=dates)
         clean_f = f.replace("clean/", "").replace(".csv", "")
         utils.write_s3_file(results, f"output/er_forecasts_{clean_f}.csv")
-
-
-if __name__ == "__main__":
-    main()
