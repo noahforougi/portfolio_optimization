@@ -71,7 +71,7 @@ def expected_return_forecasts(df, model_dict, dates):
     return all_predictions_df
 
 
-if __name__ == "__main__":
+def main():
     files = utils.list_s3_files(prefix="clean/", bucket_name=config.BUCKET_NAME)
     dates = pd.date_range(config.START_DATE, config.END_DATE, freq="ME")
     for f in tqdm(files):
@@ -84,3 +84,7 @@ if __name__ == "__main__":
         results = expected_return_forecasts(df, model_dict=model_dict, dates=dates)
         clean_f = f.replace("clean/", "").replace(".csv", "")
         utils.write_s3_file(results, f"output/er_forecasts_{clean_f}.csv")
+
+
+if __name__ == "__main__":
+    main()

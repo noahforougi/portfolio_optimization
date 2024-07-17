@@ -3,3 +3,4 @@ writing/
 .DS_store
 .env
 *.pyc
+*.log

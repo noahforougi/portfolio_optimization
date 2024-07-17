@@ -17,7 +17,7 @@ def clean_data(df):
     return df.astype(float).reset_index()
 
 
-def process_files():
+def main():
     for k, v in config.COLUMN_DICT.items():
         df = utils.read_s3_file(f"raw/{k}")
         df_clean = clean_data(df)
@@ -28,4 +28,4 @@ def process_files():
 
 
 if __name__ == "__main__":
-    process_files()
+    main()
