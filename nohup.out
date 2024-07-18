@@ -1,0 +1,7 @@
+nohup: ignoring input
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+  0%|          | 0/8 [00:00<?, ?it/s]
+  0%|          | 0/28 [00:00<?, ?it/s][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest

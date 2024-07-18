@@ -1,7 +1,9 @@
+from typing import List
+
 import pandas as pd
 
 
-def daily_to_monthly(df):
+def daily_to_monthly(df: pd.DataFrame):
     df["date"] = pd.to_datetime(df["date"])
     df.set_index("date", inplace=True)
     df = df.melt(ignore_index=False, var_name="ticker", value_name="return_1d")
@@ -26,25 +28,25 @@ def daily_to_monthly(df):
     )
 
 
-def add_lags(df):
+def add_lags(df: pd.DataFrame):
     for i in range(1, 13):
         df[f"return_1m_lag{i}"] = df.groupby("ticker")["return_1m"].shift(i)
     return df
 
 
-def add_label(df):
+def add_label(df: pd.DataFrame):
     df["return_1m_forward"] = df.groupby("ticker")["return_1m"].shift(-1)
     return df
 
 
-def add_simple_prediction(df):
+def add_simple_prediction(df: pd.DataFrame):
     df["return_r24m"] = df.groupby("ticker")["return_1m"].transform(
         lambda x: x.rolling(window=24).mean()
     )
     return df
 
 
-def calculate_momentum(df, periods=[3, 6, 12]):
+def calculate_momentum(df: pd.DataFrame, periods: List[int] = [3, 6, 12]):
     df = df.copy()
     for period in periods:
         df = df.reset_index()
@@ -80,4 +82,12 @@ def prepare_training_data(df: pd.DataFrame):
     df = add_simple_prediction(df)
     df = calculate_momentum(df).reset_index().set_index("date")
     df = add_dummy_variables(df, ["ticker"])
+    return df.sort_index()
+
+
+def prepare_training_data_no_dummys(df: pd.DataFrame):
+    df = daily_to_monthly(df)
+    df = add_lags(df)
+    df = add_simple_prediction(df)
+    df = calculate_momentum(df).reset_index().set_index("date")
     return df.sort_index()

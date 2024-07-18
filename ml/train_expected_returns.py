@@ -7,7 +7,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.linear_model import Lasso, LinearRegression, Ridge
 from sklearn.model_selection import GridSearchCV
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import PolynomialFeatures
+from sklearn.preprocessing import PolynomialFeatures, StandardScaler
 from sklearn.svm import SVR
 from tqdm import tqdm
 from xgboost import XGBRegressor
@@ -18,6 +18,29 @@ from ml import preprocess
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+class ModelType(Enum):
+    ROLLING_AVERAGE = "rolling_average"
+    EWMA = "ewma"
+    ARIMA = "arima"
+    RANDOM_FOREST = "random_forest"
+    XGBOOST = "xgboost"
+    LINEAR_REGRESSION = "linear_regression"
+    RIDGE_REGRESSION = "ridge_regression"
+    LASSO_REGRESSION = "lasso_regression"
+    SVR = "svr"
+    GRADIENT_BOOSTING = "gradient_boosting"
+
+
+def create_preprocessing_pipeline(degree=2):
+    return Pipeline(
+        [
+            ("imputer", SimpleImputer(strategy="mean")),
+            ("poly", PolynomialFeatures(degree=degree)),
+            ("scaler", StandardScaler()),
+        ]
+    )
 
 
 def get_label():
@@ -59,19 +82,6 @@ def get_lookback_period_monthly(df, date, lookback_years=10):
     return df[(df.index >= start) & (df.index <= date)]
 
 
-class ModelType(Enum):
-    ROLLING_AVERAGE = "rolling_average"
-    EWMA = "ewma"
-    ARIMA = "arima"
-    RANDOM_FOREST = "random_forest"
-    XGBOOST = "xgboost"
-    LINEAR_REGRESSION = "linear_regression"
-    RIDGE_REGRESSION = "ridge_regression"
-    LASSO_REGRESSION = "lasso_regression"
-    SVR = "svr"
-    GRADIENT_BOOSTING = "gradient_boosting"
-
-
 def train_rolling_average_model(y_train):
     return None
 
@@ -85,12 +95,19 @@ def train_arima_model(y_train):
 
 
 def train_random_forest_model(X_train, y_train):
+    preprocessing_pipeline = create_preprocessing_pipeline()
+    model = Pipeline(
+        [
+            ("preprocess", preprocessing_pipeline),
+            ("rf", RandomForestRegressor(random_state=42)),
+        ]
+    )
+
     param_grid = {
-        "n_estimators": [100, 200, 300],
-        "max_depth": [None, 10, 20],
-        "min_samples_split": [2, 5, 10],
+        "rf__n_estimators": [100, 300],
+        "rf__max_depth": [10, 20],
+        "rf__min_samples_split": [2, 10],
     }
-    model = RandomForestRegressor(random_state=42)
     grid_search = GridSearchCV(model, param_grid, cv=5, n_jobs=-1)
     grid_search.fit(X_train, y_train)
     best_model = grid_search.best_estimator_
@@ -98,12 +115,16 @@ def train_random_forest_model(X_train, y_train):
 
 
 def train_xgboost_model(X_train, y_train):
+    preprocessing_pipeline = create_preprocessing_pipeline()
+    model = Pipeline(
+        [("preprocess", preprocessing_pipeline), ("xgb", XGBRegressor(random_state=42))]
+    )
+
     param_grid = {
-        "n_estimators": [100, 200],
-        "max_depth": [3, 6, 9],
-        "learning_rate": [0.01, 0.1, 0.3],
+        "xgb__n_estimators": [100, 300],
+        "xgb__max_depth": [3, 9],
+        "xgb__learning_rate": [0.01, 0.1],
     }
-    model = XGBRegressor(objective="reg:squarederror", random_state=42)
     grid_search = GridSearchCV(model, param_grid, cv=5, n_jobs=-1)
     grid_search.fit(X_train, y_train)
     best_model = grid_search.best_estimator_
@@ -111,21 +132,20 @@ def train_xgboost_model(X_train, y_train):
 
 
 def train_linear_regression_model(X_train, y_train):
-    poly = PolynomialFeatures(degree=2)
+    preprocessing_pipeline = create_preprocessing_pipeline()
     model = Pipeline(
-        [
-            ("imputer", SimpleImputer(strategy="mean")),
-            ("poly", poly),
-            ("linear", LinearRegression()),
-        ]
+        [("preprocess", preprocessing_pipeline), ("linear", LinearRegression())]
     )
+
     model.fit(X_train, y_train)
     return model
 
 
 def train_ridge_regression_model(X_train, y_train):
-    param_grid = {"ridge__alpha": [0.1, 1, 10, 100]}
-    model = Pipeline([("imputer", SimpleImputer(strategy="mean")), ("ridge", Ridge())])
+    preprocessing_pipeline = create_preprocessing_pipeline()
+    model = Pipeline([("preprocess", preprocessing_pipeline), ("ridge", Ridge())])
+
+    param_grid = {"ridge__alpha": [0.1, 1, 100]}
     grid_search = GridSearchCV(model, param_grid, cv=5)
     grid_search.fit(X_train, y_train)
     best_model = grid_search.best_estimator_
@@ -133,8 +153,10 @@ def train_ridge_regression_model(X_train, y_train):
 
 
 def train_lasso_regression_model(X_train, y_train):
-    param_grid = {"lasso__alpha": [0.01, 0.1, 1, 10]}
-    model = Pipeline([("imputer", SimpleImputer(strategy="mean")), ("lasso", Lasso())])
+    preprocessing_pipeline = create_preprocessing_pipeline()
+    model = Pipeline([("preprocess", preprocessing_pipeline), ("lasso", Lasso())])
+
+    param_grid = {"lasso__alpha": [0.01, 0.1, 10]}
     grid_search = GridSearchCV(model, param_grid, cv=5)
     grid_search.fit(X_train, y_train)
     best_model = grid_search.best_estimator_
@@ -142,13 +164,14 @@ def train_lasso_regression_model(X_train, y_train):
 
 
 def train_svr_model(X_train, y_train):
+    preprocessing_pipeline = create_preprocessing_pipeline()
+    model = Pipeline([("preprocess", preprocessing_pipeline), ("svr", SVR())])
+
     param_grid = {
         "svr__C": [0.1, 1, 10],
-        "svr__gamma": [0.001, 0.01, 0.1],
+        "svr__gamma": [0.001, 0.01],
         "svr__kernel": ["linear", "rbf"],
     }
-    model = Pipeline([("imputer", SimpleImputer(strategy="mean")), ("svr", SVR())])
-
     grid_search = GridSearchCV(model, param_grid, cv=5)
     grid_search.fit(X_train, y_train)
     best_model = grid_search.best_estimator_
@@ -156,17 +179,19 @@ def train_svr_model(X_train, y_train):
 
 
 def train_gradient_boosting_model(X_train, y_train):
-    param_grid = {
-        "gbr__n_estimators": [100, 200],
-        "gbr__learning_rate": [0.01, 0.1, 0.2],
-        "gbr__max_depth": [3, 5, 7],
-    }
+    preprocessing_pipeline = create_preprocessing_pipeline()
     model = Pipeline(
         [
-            ("imputer", SimpleImputer(strategy="mean")),
+            ("preprocess", preprocessing_pipeline),
             ("gbr", GradientBoostingRegressor(random_state=42)),
         ]
     )
+
+    param_grid = {
+        "gbr__n_estimators": [100, 200],
+        "gbr__learning_rate": [0.01, 0.1],
+        "gbr__max_depth": [3, 7],
+    }
     grid_search = GridSearchCV(model, param_grid, cv=5, n_jobs=-1)
     grid_search.fit(X_train, y_train)
     best_model = grid_search.best_estimator_

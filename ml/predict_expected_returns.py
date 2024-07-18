@@ -31,7 +31,7 @@ def expected_return_forecasts(df, model_dict, dates):
                         df, date
                     )
                     rolling_avg = lookback_data.groupby("portfolio")["return_1m"].mean()
-                    monthly_predictions_for_period[model_type] = df_month[
+                    monthly_predictions_for_period[str(model_type)] = df_month[
                         "portfolio"
                     ].map(rolling_avg)
                 elif model_type == train_expected_returns.ModelType.EWMA:
@@ -41,7 +41,7 @@ def expected_return_forecasts(df, model_dict, dates):
                     ewma = lookback_data.groupby("portfolio")["return_1m"].apply(
                         lambda x: x.ewm(span=10).mean().iloc[-1]
                     )
-                    monthly_predictions_for_period[model_type] = df_month[
+                    monthly_predictions_for_period[str(model_type)] = df_month[
                         "portfolio"
                     ].map(ewma)
                 elif model_type == train_expected_returns.ModelType.ARIMA:
@@ -49,7 +49,9 @@ def expected_return_forecasts(df, model_dict, dates):
                 elif model is None:
                     pass
                 else:
-                    monthly_predictions_for_period[model_type] = model.predict(X_test)
+                    monthly_predictions_for_period[str(model_type)] = model.predict(
+                        X_test
+                    )
             monthly_predictions_df = pd.DataFrame(
                 monthly_predictions_for_period, index=df_month.index
             )
