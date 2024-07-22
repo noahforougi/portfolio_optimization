@@ -5,3 +5,1984 @@ INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/c
 INFO:ml.train_expected_returns:Training Model --- EWMA
 INFO:ml.train_expected_returns:Training Model --- ARIMA
 INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  4%|▎         | 1/28 [30:20<13:39:06, 1820.22s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  7%|▋         | 2/28 [1:00:02<12:59:01, 1797.77s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 11%|█         | 3/28 [1:29:49<12:27:07, 1793.09s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 14%|█▍        | 4/28 [2:00:01<12:00:08, 1800.37s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 18%|█▊        | 5/28 [2:30:55<11:37:32, 1819.67s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 21%|██▏       | 6/28 [3:01:40<11:10:24, 1828.39s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 25%|██▌       | 7/28 [3:30:33<10:29:03, 1797.33s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 29%|██▊       | 8/28 [3:59:54<9:55:10, 1785.50s/it] [AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 32%|███▏      | 9/28 [4:29:11<9:22:38, 1776.77s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 36%|███▌      | 10/28 [4:59:59<8:59:39, 1798.84s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 39%|███▉      | 11/28 [5:29:09<8:25:24, 1783.80s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 43%|████▎     | 12/28 [5:57:53<7:50:48, 1765.54s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 46%|████▋     | 13/28 [6:27:43<7:23:15, 1773.06s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 50%|█████     | 14/28 [6:58:27<6:58:40, 1794.34s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 54%|█████▎    | 15/28 [7:28:44<6:30:15, 1801.19s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 57%|█████▋    | 16/28 [7:58:11<5:58:12, 1791.06s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 61%|██████    | 17/28 [8:27:33<5:26:43, 1782.12s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 64%|██████▍   | 18/28 [8:57:55<4:59:01, 1794.18s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 68%|██████▊   | 19/28 [9:27:34<4:28:27, 1789.71s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 71%|███████▏  | 20/28 [9:57:20<3:58:29, 1788.66s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 75%|███████▌  | 21/28 [10:26:37<3:27:34, 1779.16s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 79%|███████▊  | 22/28 [10:56:03<2:57:30, 1775.09s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 82%|████████▏ | 23/28 [11:26:12<2:28:46, 1785.32s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 86%|████████▌ | 24/28 [11:55:34<1:58:32, 1778.11s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 89%|████████▉ | 25/28 [12:24:49<1:28:33, 1771.28s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 93%|█████████▎| 26/28 [12:53:56<58:47, 1763.90s/it]  [AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 96%|█████████▋| 27/28 [13:23:15<29:22, 1762.69s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+100%|██████████| 28/28 [13:52:48<00:00, 1765.67s/it][A100%|██████████| 28/28 [13:52:48<00:00, 1784.59s/it]
+ 12%|█▎        | 1/8 [13:53:03<97:11:22, 49983.15s/it]
+  0%|          | 0/28 [00:00<?, ?it/s][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  4%|▎         | 1/28 [30:16<13:37:36, 1816.91s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  7%|▋         | 2/28 [1:02:58<13:44:13, 1902.05s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 11%|█         | 3/28 [1:35:43<13:24:32, 1930.89s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 14%|█▍        | 4/28 [2:09:50<13:10:39, 1976.65s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 18%|█▊        | 5/28 [2:41:59<12:31:04, 1959.34s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 21%|██▏       | 6/28 [3:12:59<11:46:07, 1925.79s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 25%|██▌       | 7/28 [3:45:12<11:14:48, 1928.00s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 29%|██▊       | 8/28 [4:17:13<10:41:55, 1925.78s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 32%|███▏      | 9/28 [4:48:51<10:07:03, 1917.05s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 36%|███▌      | 10/28 [5:20:53<9:35:36, 1918.69s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 39%|███▉      | 11/28 [5:52:59<9:04:12, 1920.75s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 43%|████▎     | 12/28 [6:24:22<8:29:08, 1909.26s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 46%|████▋     | 13/28 [6:56:35<7:59:07, 1916.48s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 50%|█████     | 14/28 [7:29:16<7:30:18, 1929.92s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 54%|█████▎    | 15/28 [8:01:17<6:57:34, 1927.24s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 57%|█████▋    | 16/28 [8:32:11<6:21:03, 1905.25s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 61%|██████    | 17/28 [9:02:20<5:43:59, 1876.32s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 64%|██████▍   | 18/28 [9:33:11<5:11:26, 1868.68s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 68%|██████▊   | 19/28 [10:02:50<4:36:15, 1841.76s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 71%|███████▏  | 20/28 [10:33:27<4:05:23, 1840.41s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 75%|███████▌  | 21/28 [11:04:23<3:35:14, 1844.97s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 79%|███████▊  | 22/28 [11:34:29<3:03:19, 1833.30s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 82%|████████▏ | 23/28 [12:04:18<2:31:39, 1819.99s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 86%|████████▌ | 24/28 [12:33:12<1:59:36, 1794.18s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 89%|████████▉ | 25/28 [13:03:04<1:29:40, 1793.60s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 93%|█████████▎| 26/28 [13:32:48<59:41, 1790.62s/it]  [AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 96%|█████████▋| 27/28 [14:02:06<29:40, 1780.80s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+100%|██████████| 28/28 [14:32:14<00:00, 1788.97s/it][A100%|██████████| 28/28 [14:32:14<00:00, 1869.07s/it]
+ 25%|██▌       | 2/8 [28:25:28<85:37:16, 51372.67s/it]
+  0%|          | 0/28 [00:00<?, ?it/s][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  4%|▎         | 1/28 [28:45<12:56:36, 1725.81s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  7%|▋         | 2/28 [58:32<12:43:26, 1761.78s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 11%|█         | 3/28 [1:26:44<12:00:48, 1729.94s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 14%|█▍        | 4/28 [1:55:59<11:35:51, 1739.63s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 18%|█▊        | 5/28 [2:25:29<11:11:02, 1750.53s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 21%|██▏       | 6/28 [2:55:16<10:46:26, 1763.03s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 25%|██▌       | 7/28 [3:24:49<10:18:09, 1766.18s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 29%|██▊       | 8/28 [3:54:12<9:48:24, 1765.21s/it] [AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 32%|███▏      | 9/28 [4:24:56<9:26:48, 1789.94s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 36%|███▌      | 10/28 [4:54:47<8:57:02, 1790.12s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 39%|███▉      | 11/28 [5:24:24<8:26:07, 1786.32s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 43%|████▎     | 12/28 [5:54:01<7:55:36, 1783.53s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 46%|████▋     | 13/28 [6:23:47<7:26:02, 1784.18s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 50%|█████     | 14/28 [6:53:44<6:57:13, 1788.12s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 54%|█████▎    | 15/28 [7:23:59<6:29:08, 1796.05s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 57%|█████▋    | 16/28 [7:53:57<5:59:19, 1796.66s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 61%|██████    | 17/28 [8:22:59<5:26:24, 1780.38s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 64%|██████▍   | 18/28 [8:52:41<4:56:47, 1780.70s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 68%|██████▊   | 19/28 [9:21:53<4:25:48, 1772.03s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 71%|███████▏  | 20/28 [9:51:42<3:56:57, 1777.19s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 75%|███████▌  | 21/28 [10:20:55<3:26:30, 1770.10s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 79%|███████▊  | 22/28 [10:50:08<2:56:29, 1764.85s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 82%|████████▏ | 23/28 [11:19:28<2:26:57, 1763.52s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 86%|████████▌ | 24/28 [11:49:25<1:58:13, 1773.34s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 89%|████████▉ | 25/28 [12:18:36<1:28:20, 1766.72s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 93%|█████████▎| 26/28 [12:50:01<1:00:04, 1802.19s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 96%|█████████▋| 27/28 [13:21:59<30:37, 1837.00s/it]  [AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+100%|██████████| 28/28 [13:53:32<00:00, 1853.80s/it][A100%|██████████| 28/28 [13:53:32<00:00, 1786.17s/it]
+ 38%|███▊      | 3/8 [42:19:14<70:29:47, 50757.59s/it]
+  0%|          | 0/28 [00:00<?, ?it/s][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  4%|▎         | 1/28 [29:26<13:14:52, 1766.40s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  7%|▋         | 2/28 [58:07<12:33:58, 1739.95s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 11%|█         | 3/28 [1:26:50<12:01:41, 1732.04s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 14%|█▍        | 4/28 [1:57:13<11:47:06, 1767.79s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 18%|█▊        | 5/28 [2:27:12<11:22:03, 1779.29s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 21%|██▏       | 6/28 [2:56:47<10:51:48, 1777.65s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 25%|██▌       | 7/28 [3:25:38<10:16:54, 1762.62s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 29%|██▊       | 8/28 [3:55:12<9:48:43, 1766.16s/it] [AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 32%|███▏      | 9/28 [4:24:34<9:18:49, 1764.71s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 36%|███▌      | 10/28 [4:54:15<8:50:58, 1769.91s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 39%|███▉      | 11/28 [5:22:51<8:16:47, 1753.39s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 43%|████▎     | 12/28 [5:51:31<7:44:53, 1743.32s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 46%|████▋     | 13/28 [6:19:50<7:12:28, 1729.90s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 50%|█████     | 14/28 [6:47:54<6:40:22, 1715.91s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 54%|█████▎    | 15/28 [7:16:35<6:12:08, 1717.57s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 57%|█████▋    | 16/28 [7:45:14<5:43:34, 1717.86s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 61%|██████    | 17/28 [8:13:32<5:13:50, 1711.85s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 64%|██████▍   | 18/28 [8:42:10<4:45:38, 1713.89s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 68%|██████▊   | 19/28 [9:10:16<4:15:48, 1705.41s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 71%|███████▏  | 20/28 [9:39:20<3:48:54, 1716.87s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 75%|███████▌  | 21/28 [10:08:48<3:22:05, 1732.27s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 79%|███████▊  | 22/28 [10:37:34<2:53:01, 1730.29s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 82%|████████▏ | 23/28 [11:04:36<2:21:30, 1698.05s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 86%|████████▌ | 24/28 [11:32:47<1:53:03, 1695.92s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 89%|████████▉ | 25/28 [12:01:58<1:25:37, 1712.35s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 93%|█████████▎| 26/28 [12:31:56<57:56, 1738.16s/it]  [AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 96%|█████████▋| 27/28 [12:59:58<28:41, 1721.09s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+100%|██████████| 28/28 [13:28:12<00:00, 1713.20s/it][A100%|██████████| 28/28 [13:28:12<00:00, 1731.89s/it]
+ 50%|█████     | 4/8 [55:47:41<55:24:37, 49869.25s/it]
+  0%|          | 0/28 [00:00<?, ?it/s][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  4%|▎         | 1/28 [17:07<7:42:16, 1027.26s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  7%|▋         | 2/28 [34:08<7:23:35, 1023.66s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 11%|█         | 3/28 [51:56<7:15:01, 1044.04s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 14%|█▍        | 4/28 [1:10:01<7:04:01, 1060.04s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 18%|█▊        | 5/28 [1:27:07<6:41:44, 1048.00s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 21%|██▏       | 6/28 [1:44:35<6:24:14, 1047.94s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 25%|██▌       | 7/28 [2:01:18<6:01:35, 1033.14s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 29%|██▊       | 8/28 [2:17:29<5:37:48, 1013.40s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 32%|███▏      | 9/28 [2:34:40<5:22:39, 1018.90s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 36%|███▌      | 10/28 [2:52:26<5:09:59, 1033.33s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 39%|███▉      | 11/28 [3:10:49<4:58:49, 1054.65s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 43%|████▎     | 12/28 [3:27:52<4:38:41, 1045.12s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 46%|████▋     | 13/28 [3:44:52<4:19:21, 1037.42s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 50%|█████     | 14/28 [4:02:05<4:01:45, 1036.09s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 54%|█████▎    | 15/28 [4:19:11<3:43:48, 1033.00s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 57%|█████▋    | 16/28 [4:37:29<3:30:31, 1052.62s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 61%|██████    | 17/28 [4:54:22<3:10:49, 1040.85s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 64%|██████▍   | 18/28 [5:11:09<2:51:45, 1030.58s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 68%|██████▊   | 19/28 [5:27:46<2:33:05, 1020.58s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 71%|███████▏  | 20/28 [5:43:53<2:13:55, 1004.43s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 75%|███████▌  | 21/28 [6:00:39<1:57:15, 1005.02s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 79%|███████▊  | 22/28 [6:16:41<1:39:12, 992.13s/it] [AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 82%|████████▏ | 23/28 [6:33:12<1:22:38, 991.66s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 86%|████████▌ | 24/28 [6:50:12<1:06:40, 1000.04s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 89%|████████▉ | 25/28 [7:06:48<49:56, 998.97s/it]   [AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 93%|█████████▎| 26/28 [7:23:48<33:30, 1005.40s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 96%|█████████▋| 27/28 [7:40:32<16:44, 1004.79s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+100%|██████████| 28/28 [7:57:21<00:00, 1006.24s/it][A100%|██████████| 28/28 [7:57:21<00:00, 1022.93s/it]
+ 62%|██████▎   | 5/8 [63:45:12<35:10:53, 42217.73s/it]
+  0%|          | 0/28 [00:00<?, ?it/s][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  4%|▎         | 1/28 [17:20<7:48:09, 1040.34s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  7%|▋         | 2/28 [34:16<7:24:44, 1026.33s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 11%|█         | 3/28 [52:40<7:22:23, 1061.72s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 14%|█▍        | 4/28 [1:09:53<7:00:07, 1050.31s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 18%|█▊        | 5/28 [1:28:12<6:49:17, 1067.72s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 21%|██▏       | 6/28 [1:46:56<6:38:35, 1087.06s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 25%|██▌       | 7/28 [2:04:28<6:16:25, 1075.52s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 29%|██▊       | 8/28 [2:22:07<5:56:48, 1070.42s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 32%|███▏      | 9/28 [2:41:30<5:48:05, 1099.24s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 36%|███▌      | 10/28 [2:59:31<5:28:05, 1093.65s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 39%|███▉      | 11/28 [3:17:48<5:10:08, 1094.63s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 43%|████▎     | 12/28 [3:36:10<4:52:30, 1096.94s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 46%|████▋     | 13/28 [3:54:07<4:32:44, 1090.94s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 50%|█████     | 14/28 [4:12:40<4:16:06, 1097.63s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 54%|█████▎    | 15/28 [4:31:15<3:58:55, 1102.74s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 57%|█████▋    | 16/28 [4:48:34<3:36:42, 1083.57s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 61%|██████    | 17/28 [5:05:26<3:14:41, 1061.98s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 64%|██████▍   | 18/28 [5:24:11<3:00:10, 1081.05s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 68%|██████▊   | 19/28 [5:41:17<2:39:38, 1064.26s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 71%|███████▏  | 20/28 [5:58:56<2:21:43, 1062.96s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 75%|███████▌  | 21/28 [6:16:17<2:03:13, 1056.18s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 79%|███████▊  | 22/28 [6:34:17<1:46:20, 1063.50s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 82%|████████▏ | 23/28 [6:52:22<1:29:08, 1069.75s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 86%|████████▌ | 24/28 [7:10:23<1:11:32, 1073.11s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 89%|████████▉ | 25/28 [7:28:04<53:28, 1069.65s/it]  [AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 93%|█████████▎| 26/28 [7:46:15<35:51, 1075.87s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 96%|█████████▋| 27/28 [8:03:40<17:46, 1066.70s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+100%|██████████| 28/28 [8:22:12<00:00, 1080.27s/it][A100%|██████████| 28/28 [8:22:12<00:00, 1076.16s/it]
+ 75%|███████▌  | 6/8 [72:07:35<21:10:24, 38112.49s/it]
+  0%|          | 0/28 [00:00<?, ?it/s][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  4%|▎         | 1/28 [17:26<7:50:54, 1046.46s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+  7%|▋         | 2/28 [34:45<7:31:37, 1042.21s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 11%|█         | 3/28 [51:34<7:07:49, 1026.76s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 14%|█▍        | 4/28 [1:10:02<7:03:35, 1058.96s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 18%|█▊        | 5/28 [1:28:32<6:53:02, 1077.51s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 21%|██▏       | 6/28 [1:46:05<6:32:00, 1069.11s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 25%|██▌       | 7/28 [2:03:48<6:13:30, 1067.17s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 29%|██▊       | 8/28 [2:22:21<6:00:32, 1081.61s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 32%|███▏      | 9/28 [2:40:33<5:43:33, 1084.93s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 36%|███▌      | 10/28 [2:58:20<5:23:49, 1079.41s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest
+INFO:ml.train_expected_returns:Training Model --- XGBoost
+INFO:ml.train_expected_returns:Training Model --- Linear Regression
+INFO:ml.train_expected_returns:Training Model --- Ridge Regression
+INFO:ml.train_expected_returns:Training Model --- Lasso Regression
+INFO:ml.train_expected_returns:Training Model --- SVR Model
+INFO:ml.train_expected_returns:Training Model --- Gradient Boosting Model
+
+ 39%|███▉      | 11/28 [3:16:17<5:05:35, 1078.53s/it][AINFO:ml.train_expected_returns:Training Model --- Rolling Average
+INFO:ml.train_expected_returns:Training Model --- EWMA
+INFO:ml.train_expected_returns:Training Model --- ARIMA
+INFO:ml.train_expected_returns:Training Model --- Random Forest

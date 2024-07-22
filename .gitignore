@@ -4,3 +4,4 @@ writing/
 .env
 *.pyc
 *.log
+nohup.out
