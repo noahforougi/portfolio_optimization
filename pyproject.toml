@@ -10,10 +10,8 @@ python = ">=3.10,<3.15"
 pandas = "^2.2.2"
 jupyter = "^1.0.0"
 ipykernel = "^6.29.4"
-matplotlib = "^3.9.0"
 numpy = "^1.26.4"
 black = {extras = ["jupyter"], version = "^24.4.2"}
-yfinance = "^0.2.40"
 scipy = "^1.13.1"
 pyportfolioopt = "^1.5.5"
 seaborn = "^0.13.2"
@@ -28,6 +26,10 @@ rpy2 = "^3.5.16"
 statsmodels = "^0.14.2"
 xgboost = "^2.1.0"
 pmdarima = "^2.0.4"
+matplotlib = "==3.5.0"
+tikzplotlib = "==0.10.1"
+webcolors = "==1.11.1"
+skfolio = "^0.3.1"
 
 [build-system]
 requires = ["poetry-core"]

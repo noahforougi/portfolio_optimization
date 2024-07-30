@@ -64,7 +64,7 @@ def read_s3_joblib(file_key, bucket_name=config.BUCKET_NAME):
     return obj
 
 
-def list_s3_files(bucket_name, prefix):
+def list_s3_files(prefix, bucket_name=config.BUCKET_NAME):
     s3 = boto3.client("s3")
     response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix)
     file_keys = [content["Key"] for content in response.get("Contents", [])]

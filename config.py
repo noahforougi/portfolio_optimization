@@ -112,3 +112,125 @@ COLUMN_DICT = {
 }
 
 BUCKET_NAME = "portfolio-optimization-data"
+
+MODEL_COLUMNS = [
+    "ModelType.ROLLING_AVERAGE",
+    "ModelType.EWMA",
+    "ModelType.RANDOM_FOREST",
+    "ModelType.XGBOOST",
+    "ModelType.LINEAR_REGRESSION",
+    "ModelType.RIDGE_REGRESSION",
+    "ModelType.LASSO_REGRESSION",
+    "ModelType.SVR",
+    "ModelType.GRADIENT_BOOSTING",
+]
+
+PORTFOLIO_ORDER = [
+    "lo_10",
+    "dec_2",
+    "dec_3",
+    "dec_4",
+    "dec_5",
+    "dec_6",
+    "dec_7",
+    "dec_8",
+    "dec_9",
+    "hi_10",
+]
+
+COVARIANCE_TYPES = ["cov_ra", "cov_lw_shrinkage", "cov_ewma", "cov_dcc", "cov_gogarch"]
+ER_TYPES = [
+    "ModelType.ROLLING_AVERAGE",
+    "ModelType.EWMA",
+    "ModelType.RANDOM_FOREST",
+    "ModelType.XGBOOST",
+    "ModelType.LINEAR_REGRESSION",
+    "ModelType.RIDGE_REGRESSION",
+    "ModelType.LASSO_REGRESSION",
+    "ModelType.SVR",
+    "ModelType.GRADIENT_BOOSTING",
+]
+
+
+PORTFOLIO_ORDER_DICT = {
+    "size": [
+        "lo_10",
+        "dec_2",
+        "dec_3",
+        "dec_4",
+        "dec_5",
+        "dec_6",
+        "dec_7",
+        "dec_8",
+        "dec_9",
+        "hi_10",
+    ],
+    "btm": [
+        "lo_10",
+        "dec_2",
+        "dec_3",
+        "dec_4",
+        "dec_5",
+        "dec_6",
+        "dec_7",
+        "dec_8",
+        "dec_9",
+        "hi_10",
+    ],
+    "momentum": [
+        "lo_prior",
+        "prior_2",
+        "prior_3",
+        "prior_4",
+        "prior_5",
+        "prior_6",
+        "prior_7",
+        "prior_8",
+        "prior_9",
+        "hi_prior",
+    ],
+    "sizebtm": [
+        "small_lobm",
+        "me1_bm2",
+        "small_hibm",
+        "big_lobm",
+        "me2_bm2",
+        "big_hibm",
+    ],
+    "industry": [
+        "nodur",
+        "durbl",
+        "manuf",
+        "enrgy",
+        "hitec",
+        "telcm",
+        "shops",
+        "hlth",
+        "utils",
+        "other",
+    ],
+    "sizemomentum": [
+        "small_loprior",
+        "me1_prior2",
+        "small_hiprior",
+        "big_loprior",
+        "me2_prior2",
+        "big_hiprior",
+    ],
+    "size_str": [
+        "small_loprior",
+        "me1_prior2",
+        "small_hiprior",
+        "big_loprior",
+        "me2_prior2",
+        "big_hiprior",
+    ],
+    "size_ltr": [
+        "small_loprior",
+        "me1_prior2",
+        "small_hiprior",
+        "big_loprior",
+        "me2_prior2",
+        "big_hiprior",
+    ],
+}
